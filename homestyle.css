@@ -45,9 +45,6 @@ body{
     border: 1px solid #ccc;
     perspective: 1000px;
 }
-.info.flip .flip-card{
-    transform: rotateY(180deg);
-}
 .flip-card-container.flip .flip-card{
     transform: rotateY(180deg);
 }
