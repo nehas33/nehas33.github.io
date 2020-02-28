@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card flip</title>
+    <link rel="stylesheet" href="homestyle.css">
+</head>
+
+<body>
+    <div class ="flip-card-container">
+        <div class="flip-card">
+            <div class="flip-card-font"><img src="C:\Users\Asim Khan\Desktop\neha\project-12-superwars-basic\images\super-10.png"></div>
+            <div class="flip-card-back"><img src="C:\Users\Asim Khan\Desktop\neha\project-12-superwars-basic\images\super-2.png"><div class="num">10</div>
+            </div>
+        </div>
+    </div>
+    <div class ="flip-card-container">
+        <div class="flip-card">
+            <div class="flip-card-font"><img src="C:\Users\Asim Khan\Desktop\neha\project-12-superwars-basic\images\super-10.png"></div>
+            <div class="flip-card-back"><img src="C:\Users\Asim Khan\Desktop\neha\project-12-superwars-basic\images\super-2.png"><div class="num">10</div>
+            </div>
+        </div>
+    </div>
+    <div class ="flip-card-container">
+        <div class="flip-card">
+            <div class="flip-card-font"><img src="C:\Users\Asim Khan\Desktop\neha\project-12-superwars-basic\images\super-10.png"></div>
+            <div class="flip-card-back"><img src="C:\Users\Asim Khan\Desktop\neha\project-12-superwars-basic\images\super-2.png"><div class="num">10</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+const flipCardContainer = document.querySelector(".flip-card-container");
+flipCardContainer.addEventListener("click",function(){
+flipCardContainer.classList.toggle("flip");
+});
+    </script>
+</body>
+</html>
