@@ -4,13 +4,37 @@
     padding:0;
     box-sizing:border-box;
 }
+.intro
+{
+    text-align: center;
+     color: skyblue;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-weight: normal;
+     font-size:1em;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
     height: 100vh;
-    display:flex;
-    justify-content:space-between;
-    align-items:;
+    background: radial-gradient(green,#3d223d);
+   
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.in{
+    display: flex;
+}
+.INF{
+    display: flex;
+}
+.play
+{
+    display: flex;
+    justify-content:space-around;
 }
 .num{
     text-align: end;
@@ -20,6 +44,9 @@ body{
     height: 150px;
     border: 1px solid #ccc;
     perspective: 1000px;
+}
+.info.flip .flip-card{
+    transform: rotateY(180deg);
 }
 .flip-card-container.flip .flip-card{
     transform: rotateY(180deg);
@@ -63,6 +90,6 @@ body{
 width: 100%;
 height:100%;
 }
-.flip-card-back .num{
-    text-align: end;
+.num{
+    -moz-text-align-last: auto;
 }
