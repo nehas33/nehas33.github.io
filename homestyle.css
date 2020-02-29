@@ -31,15 +31,14 @@ body{
 .INF{
     display: flex;
 }
+}
 .play
 {
     display: flex;
-    justify-content:space-around;
-}
-.num{
-    text-align: end;
+    justify-content: space-around;
 }
 .flip-card-container{
+
     width: 150px;
     height: 150px;
     border: 1px solid #ccc;
